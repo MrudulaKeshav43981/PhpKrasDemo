@@ -1,0 +1,139 @@
+<!-- This assignment is done by Mrudula Ichanahalli Anantharamaiah G01062001 -->
+<!-- This the Student Survey Form -->
+<!DOCTYPE html>
+<html>
+<style>
+label {
+	font-size: 20px;
+	font-family: Arial;
+	padding: 14px 20px;
+	margin: 3px 0;
+	width: 300px;
+}
+
+.label-wrapper {
+	display: inline-block;
+	width: 185px;
+}
+
+.submit-class button:hover {
+	background-color: #A9A9A9;
+}
+
+.submit-class {
+	text-align: center;
+}
+
+.submit-class button {
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	font-family: Arial;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=text] {
+	width: 50%;
+	border: 2px solid #ccc;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px dimgrey;
+	padding: 20px 25px;
+	margin-left: 6px;
+}
+
+#main {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.cit {
+	width: 20%;
+	display: inline-block;
+}
+
+.checkbox-wrapper {
+	display: inline-block;
+	width: 500px;
+}
+
+.radio-wrapper {
+	display: inline-block;
+	width: 500px;
+}
+
+.drop-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+
+.checkboxes {
+	font-size: 20px;
+	font-family: Arial;
+	padding: 14px 20px;
+	margin: 6px 0;
+	width: 300px;
+}
+
+.drop-down-buttons {
+	padding: 14px 20px;
+	margin: 6px 0;
+	width: 20%;
+}
+
+.drop-down-font {
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.radiobuttons {
+	font-size: 20px;
+	font-family: Arial;
+	padding: 14px 20px;
+	margin: 6px 0;
+	width: 300px;
+}
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="jquery-ui.css">
+<script src="jquery.js"></script>
+<script src="jquery-ui.js"></script>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Survey</title>
+</head>
+<body>
+	<h1>Student Survey Page</h1>
+	<p id="demo"></p>
+
+	<!--This is the outermost div element-->
+	<div id="main">
+		<div autocomplete="on">
+
+
+			<br>
+
+			<div class="submit-class">
+				<button onclick="fetchstudentsdata()">Fetch</button>
+			</div>
+
+
+
+
+			<!-- <img id="logo2" src="3428.jpg" alt="Smiley face"
+				style="position: fixed; bottom: 10px; right: 20px;"
+				title="Please visit https://www2.gmu.edu for further information" /> -->
+
+
+
+		</div>
+	</div>
+
+	<script src="./app/scripts/app.js"></script>
+
+
+</body>
+</html>

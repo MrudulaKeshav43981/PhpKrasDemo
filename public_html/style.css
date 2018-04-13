@@ -1,0 +1,68 @@
+#cvid {
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+	height: 50vh;
+}
+
+.detailsclass {
+	padding: 100px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
+}
+
+#imageid {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#imageid img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#nameid {
+	float: left;
+	font-size:30px;
+	color:black;
+}
+#nameid h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+		
+	}
+#contactid {
+	float: right;
+}
+#contactid ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactid ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+#areaMainid {
+	padding: 70px;
+}
+.personalDetailsclass {
+	float: left;
+	width: 25%;
+	color:black;
+}
+.personalDetailsContent{
+	float: right;
+	width: 72.5%;
+	color:black;
+}
+
+#sectionid {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
